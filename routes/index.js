@@ -23,18 +23,18 @@ router.get('/About',(req,res)=>{
 //     res.download(path.resolve(__dirname)+'/download.html')
 // })
 
-router.get('/api/product', apiKeymiddleware ,(req,res)=>{
-    res.json([
-        {
-            id:"123",
-            name:"chrome" 
-        },
-        {
-            id:"1234",
-            name:"Brave"
-        }
-    ])
-})
+// router.get('/api/product', apiKeymiddleware ,(req,res)=>{
+//     res.json([
+//         {
+//             id:"123",
+//             name:"chrome" 
+//         },
+//         {
+//             id:"1234",
+//             name:"Brave"
+//         }
+//     ])
+// })
 
 
 module.exports=router;

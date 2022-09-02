@@ -6,7 +6,8 @@ const ProductRoutes=require('./routes/ProductRoutes');
 // const PORT=1999;
 
 
-// app.use(express.static('public'))
+app.use(express.static('public'))
+app.use(express.json())
 app.use(main);
 app.use(ProductRoutes);
 
